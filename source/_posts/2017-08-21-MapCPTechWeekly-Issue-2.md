@@ -1,4 +1,5 @@
 title: MapCPTech Weekly ISSUE#2
+date: 2017-08-21 10:00:00
 tags: [weekly]
 categories: weekly
 ---
