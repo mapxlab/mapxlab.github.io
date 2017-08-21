@@ -1,4 +1,4 @@
-title: MapCPTech Weekly ISSUE#1
+title: MapCPTech Weekly ISSUE#2
 tags: [weekly]
 categories: weekly
 ---
