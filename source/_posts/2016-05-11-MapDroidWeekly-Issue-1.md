@@ -1,4 +1,5 @@
 title: MapDroidWeekly ISSUE#1
+date: 2016-05-11 10:00:00
 tags: [weekly]
 categories: weekly
 ---
