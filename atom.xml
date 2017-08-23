@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mapxlab.com/"/>
-  <updated>2017-08-21T08:10:22.000Z</updated>
+  <updated>2017-08-23T08:50:10.000Z</updated>
   <id>http://mapxlab.com/</id>
   
   <author>
@@ -16,11 +16,87 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Android 8.0 Oreo 新特性及 API 简介</title>
+    <link href="http://mapxlab.com/2017/08/2016-08-23-Android8-Oreo/"/>
+    <id>http://mapxlab.com/2017/08/2016-08-23-Android8-Oreo/</id>
+    <published>2017-08-23T03:00:00.000Z</published>
+    <updated>2017-08-23T08:50:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>经过4个DeveloperPreview 版本之后，google 在8月22日正式面向全球发布了Android 8.0 版本，取名『Oreo』。Android 8.0 为用户带来了诸如画中画 (Picture in picture)、自动填充 (Autofill)、免安装应用 (Instant Apps)、Google Play 保护机制 (Google Play Protect) 以及更快的启动时间等诸多新功能。到今年年底，国内一些硬件厂商都会计划新设备升级至Android8.0 Oreo。</p>
+</blockquote>
+<h2 id="Android-8-0-Oreo-的新特性"><a href="#Android-8-0-Oreo-的新特性" class="headerlink" title="Android 8.0 Oreo 的新特性"></a>Android 8.0 Oreo 的新特性</h2><h3 id="画中画-Picture-in-picture"><a href="#画中画-Picture-in-picture" class="headerlink" title="画中画 (Picture-in-picture)"></a>画中画 (Picture-in-picture)</h3><p>PIP 功能让用户能够以任意窗口大小同时进行两项任务的操作。该功能需要APP适配多窗口分屏模式（Multi-window）。<br><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/46128014.gif" alt=""></p>
+<h3 id="通知-Notification"><a href="#通知-Notification" class="headerlink" title="通知 Notification"></a>通知 Notification</h3><p><strong><a href="https://developer.android.com/guide/topics/ui/notifiers/notifications.html#ManageChannels" target="_blank" rel="external">通知channel</a></strong> ：Android 8.0 引入了通知渠道（Channel）的新特性，将应用通知分门别类管理，用户可以针对不同的通知消息单独设置通知优先级和提醒方式。</p>
+<p><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/69524188.jpg" width="400" algh=""></p>
+<blockquote>
+<p>Google 应用的通知设置</p>
+</blockquote>
+<p><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/83461351.jpg" width="400"></p>
+<blockquote>
+<p>Google 地图的通知设置</p>
+</blockquote>
+<p><strong>通知角标（Notification dot）</strong>：<br>之前的原生版本 Android 版本中，桌面启动器是不支持通知角标的（国内厂商有定制化支持），只能通过一些第三方桌面启动器（如Nova Launcher）实现。Android 8.0 开始，应用可以在启动器图标上显示通知圆点来提示用户，但这个圆点角标和 iOS 上那个有所不同——它仅提示用户该应用有通知，不会显示具体的通知数量。</p>
+<p><strong>延时通知</strong>：Android 8.0 引入了另一种通知处理操作——延时通知。当我们暂时不便处理某条应用通知时，只需要在该条通知上清扫，点击出现的时钟图标，即可让这条通知暂时从通知栏消失，在设定好的时间后再回来。</p>
+<p><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/23031752.jpg" width="400"><br><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/6200.jpg" width="400"></p>
+<blockquote>
+<p>延时通知</p>
+</blockquote>
+<h3 id="自动填充框架-Autofill-framework"><a href="#自动填充框架-Autofill-framework" class="headerlink" title="自动填充框架 (Autofill framework)"></a>自动填充框架 (Autofill framework)</h3><p>Android8.0 提供了系统几全局自动填写框架。简化了用户设置一台新设备以及同步密码的过程。需要用到表格数据的应用可为自动填充框架进行优化，密码管理应用通过新的 API 接口，能够让用户在自己最喜欢的应用中使用密码自动填充服务。</p>
+<p><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/71537178.jpg" width="400/"></p>
+<blockquote>
+<p>系统的自动填充设置</p>
+</blockquote>
+<h3 id="最大屏幕宽高比"><a href="#最大屏幕宽高比" class="headerlink" title="最大屏幕宽高比"></a>最大屏幕宽高比</h3><p>Android 8.0 引入了 <code>maxAspectRatio</code> 属性, 可以设置 App 级别的屏幕宽高比。</p>
+<h2 id="系统优化"><a href="#系统优化" class="headerlink" title="系统优化"></a>系统优化</h2><h3 id="新的-StrictMode-监控"><a href="#新的-StrictMode-监控" class="headerlink" title="新的 StrictMode 监控"></a>新的 StrictMode 监控</h3><p>Android 8.0 (API level 26) 增加了 3 个新的 StrictMode 检查类型:</p>
+<ul>
+<li>detectUnbufferedIo() 检查没有使用buffer读写数据</li>
+<li>detectContentUriWithoutPermission() 检查没有获取相关权限的情况下，调用app之外的Activity</li>
+<li>detectUntaggedSockets() 检查debug时没有使用 setThreadStatsTag(int) 标记网络请求流量</li>
+</ul>
+<h3 id="缓存数据"><a href="#缓存数据" class="headerlink" title="缓存数据"></a>缓存数据</h3><p>Android 8.0（API Level 26）引入了新的应用文件缓存方式。每个APP会分配一个磁盘空间配额（disk space quota）用于缓存，通过<code>getCacheQuotaBytes(UUID)</code>获取。</p>
+<p>如果系统需要释放磁盘空间，会从最接近分配配额的app开始删除缓存文件。如果app缓存的文件大小在配额之下，如果系统清理空间时，这些文件不会最先被删除。如果系统决定删除应用内缓存文件，会按照时间顺序，先删除最旧的缓存。</p>
+<p>系统提供了两个新的API，用于应用控制缓存行为：</p>
+<ul>
+<li>StorageManager.setCacheBehaviorAtomic()： 一个目录和它的内容作为一个原子单元被删除。</li>
+<li>setCacheBehaviorTombstone(File, boolean)：不会删除目录中的文件，但会把文件大小截断为0bytes，作为一个空文件。</li>
+</ul>
+<p>如果需要分配一个大文件缓存，推荐使用新的API <code>allocateBytes(FileDescriptor, long)</code>，可以在需要时，自动清理其他app的缓存，释放空间。</p>
+<h3 id="新增权限"><a href="#新增权限" class="headerlink" title="新增权限"></a>新增权限</h3><ul>
+<li>The ANSWER_PHONE_CALLS permission 使 app 可以编程应答电话。</li>
+<li>The READ_PHONE_NUMBERS permission 读取设备的电话号码。</li>
+</ul>
+<p>这些权限定义在PHONE权限组中，均被定义为危险权限。</p>
+<h3 id="系统优化-1"><a href="#系统优化-1" class="headerlink" title="系统优化"></a>系统优化</h3><p>为了提升系统的性能体验，Android 8.0引入了新的并发压缩垃圾回收机制，代码局部化优化（code locality）等优化手段，加速了启动时间。OS 和 APP 都能获得较好的性能体验。</p>
+<h3 id="Java-语音支持"><a href="#Java-语音支持" class="headerlink" title="Java 语音支持"></a>Java 语音支持</h3><ul>
+<li>java.time from OpenJDK 8.</li>
+<li>java.nio.file and java.lang.invoke from OpenJDK 7.</li>
+</ul>
+<h3 id="后台限制"><a href="#后台限制" class="headerlink" title="后台限制"></a>后台限制</h3><p>Android 8.0 对后台定位和扫描WiFi增加了限制，改变了应用在后台的运行模式。</p>
+<p>后台服务限制：处于空闲状态时，应用可以使用的后台服务存在限制。</p>
+<p>广播限制：除了有限的例外情况，应用无法为隐式广播注册接收器。</p>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;经过4个DeveloperPreview 版本之后，google 在8月22日正式面向全球发布了Android 8.0 版本，取名『Oreo』。Android 8.0 为用户带来了诸如画中画 (Picture in picture)、自动填充 (A
+    
+    </summary>
+    
+      <category term="Android" scheme="http://mapxlab.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://mapxlab.com/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MapCPTech Weekly ISSUE#2</title>
     <link href="http://mapxlab.com/2017/08/2017-08-21-MapCPTechWeekly-Issue-2/"/>
     <id>http://mapxlab.com/2017/08/2017-08-21-MapCPTechWeekly-Issue-2/</id>
     <published>2017-08-21T02:00:00.000Z</published>
-    <updated>2017-08-21T08:10:22.000Z</updated>
+    <updated>2017-08-23T03:43:35.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
 <li><a href="https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&amp;mid=2650408397&amp;idx=1&amp;sn=e4e78b2ed73a9c179a5dbc7c5adb6058" target="_blank" rel="external">Andrew Ng 深度学习课程小记</a><blockquote>
@@ -76,7 +152,7 @@
     <link href="http://mapxlab.com/2017/08/2017-08-13-MapCPTechWeekly-Issue-1/"/>
     <id>http://mapxlab.com/2017/08/2017-08-13-MapCPTechWeekly-Issue-1/</id>
     <published>2017-08-13T02:00:00.000Z</published>
-    <updated>2017-08-21T08:10:10.000Z</updated>
+    <updated>2017-08-23T03:43:35.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
 <li><p><a href="https://github.com/Tencent/ncnn" target="_blank" rel="external">ncnn：腾讯开源的为手机端优化的高性能神经网络前向计算框架</a></p>
@@ -164,7 +240,7 @@
     <link href="http://mapxlab.com/2016/06/2016-06-02-MapDroidWeekly-Issue-4/"/>
     <id>http://mapxlab.com/2016/06/2016-06-02-MapDroidWeekly-Issue-4/</id>
     <published>2016-06-02T07:46:52.000Z</published>
-    <updated>2017-08-21T08:00:02.000Z</updated>
+    <updated>2017-08-23T03:43:35.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x00-编程语言"><a href="#0x00-编程语言" class="headerlink" title="0x00 编程语言"></a>0x00 编程语言</h2><h3 id="Java-类加载机制解析"><a href="#Java-类加载机制解析" class="headerlink" title="Java 类加载机制解析"></a><a href="https://segmentfault.com/a/1190000005608960" target="_blank" rel="external">Java 类加载机制解析</a></h3><h3 id="Android-JNI原理分析"><a href="#Android-JNI原理分析" class="headerlink" title="Android JNI原理分析"></a><a href="http://gityuan.com/2016/05/28/android-jni/" target="_blank" rel="external">Android JNI原理分析</a></h3><h2 id="0x01-应用架构"><a href="#0x01-应用架构" class="headerlink" title="0x01 应用架构"></a>0x01 应用架构</h2><h3 id="从Dagger2基础到Google官方架构MVP-Dagger2架构详解"><a href="#从Dagger2基础到Google官方架构MVP-Dagger2架构详解" class="headerlink" title="从Dagger2基础到Google官方架构MVP+Dagger2架构详解"></a><a href="http://blog.csdn.net/megatronkings/article/details/51534250" target="_blank" rel="external">从Dagger2基础到Google官方架构MVP+Dagger2架构详解</a></h3><h3 id="iOS组件化实践方案－LDBusMediator炼就"><a href="#iOS组件化实践方案－LDBusMediator炼就" class="headerlink" title="iOS组件化实践方案－LDBusMediator炼就"></a><a href="http://www.jianshu.com/p/196f66d31543" target="_blank" rel="external">iOS组件化实践方案－LDBusMediator炼就</a></h3><h3 id="使用-FLOWCONTROLLERS-改进IOS应用架构"><a href="#使用-FLOWCONTROLLERS-改进IOS应用架构" class="headerlink" title="使用 FLOWCONTROLLERS 改进IOS应用架构"></a><a href="https://blog.maxleap.cn/archives/879" target="_blank" rel="external">使用 FLOWCONTROLLERS 改进IOS应用架构</a></h3><h2 id="0x02-工程实践"><a href="#0x02-工程实践" class="headerlink" title="0x02 工程实践"></a>0x02 工程实践</h2><h3 id="Android-在线换肤方案总结分享"><a href="#Android-在线换肤方案总结分享" class="headerlink" title="Android 在线换肤方案总结分享"></a><a href="http://imesong.com/2016/04/05/Android-%E5%9C%A8%E7%BA%BF%E6%8D%A2%E8%82%A4%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93%E5%88%86%E4%BA%AB" target="_blank" rel="external">Android 在线换肤方案总结分享</a></h3><h3 id="Android中插件开发篇之—-应用换肤原理解析"><a href="#Android中插件开发篇之—-应用换肤原理解析" class="headerlink" title="Android中插件开发篇之—-应用换肤原理解析"></a><a href="http://blog.csdn.net/jiangwei0910410003/article/details/47679843" target="_blank" rel="external">Android中插件开发篇之—-应用换肤原理解析</a></h3><h3 id="蘑菇街App-Chromium网络栈实践"><a href="#蘑菇街App-Chromium网络栈实践" class="headerlink" title="蘑菇街App Chromium网络栈实践"></a><a href="https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112324&amp;idx=1&amp;sn=34b15399d6519340f66410445f033e85" target="_blank" rel="external">蘑菇街App Chromium网络栈实践</a></h3><h2 id="0x03-React-Native"><a href="#0x03-React-Native" class="headerlink" title="0x03 React Native"></a>0x03 React Native</h2><h3 id="React-Native系列Android——Javascript文件加载过程分析"><a href="#React-Native系列Android——Javascript文件加载过程分析" class="headerlink" title="React-Native系列Android——Javascript文件加载过程分析"></a><a href="http://blog.csdn.net/megatronkings/article/details/51534250" target="_blank" rel="external">React-Native系列Android——Javascript文件加载过程分析</a></h3><h3 id="React-Native之底层源码分析篇"><a href="#React-Native之底层源码分析篇" class="headerlink" title="React Native之底层源码分析篇"></a><a href="http://blog.csdn.net/u014486880/article/details/51535391#rd" target="_blank" rel="external">React Native之底层源码分析篇</a></h3><h2 id="0x04-工具"><a href="#0x04-工具" class="headerlink" title="0x04 工具"></a>0x04 工具</h2><h3 id="学会编写Android-Studio插件-别停留在用的程度了"><a href="#学会编写Android-Studio插件-别停留在用的程度了" class="headerlink" title="学会编写Android Studio插件 别停留在用的程度了"></a><a href="http://blog.csdn.net/lmj623565791/article/details/51548272#rd" target="_blank" rel="external">学会编写Android Studio插件 别停留在用的程度了</a></h3><h3 id="深入浅出Android打包"><a href="#深入浅出Android打包" class="headerlink" title="深入浅出Android打包"></a><a href="http://geek.csdn.net/news/detail/76488#rd?sukey=3903d1d3b699c20848ef1785bc038226c33b454e40df770585099bc86451f090e726501798b166a42e7f2fa32783787c" target="_blank" rel="external">深入浅出Android打包</a></h3><h3 id="微信测试工程师手把手教你做弱网络模拟测试"><a href="#微信测试工程师手把手教你做弱网络模拟测试" class="headerlink" title="微信测试工程师手把手教你做弱网络模拟测试"></a><a href="http://mp.weixin.qq.com/s?__biz=MzAxMzYyNDkyNA==&amp;mid=2651332070&amp;idx=1&amp;sn=2fae22d0089b0af8ace73280f05492b1&amp;scene=1&amp;srcid=0530uZEAvbQFuj1HUrTYUtVd#wechat_redirect" target="_blank" rel="external">微信测试工程师手把手教你做弱网络模拟测试</a></h3><h3 id="“HTTPS”安全在哪里？"><a href="#“HTTPS”安全在哪里？" class="headerlink" title="“HTTPS”安全在哪里？"></a><a href="https://segmentfault.com/a/1190000005597589" target="_blank" rel="external">“HTTPS”安全在哪里？</a></h3>]]></content>
     
@@ -186,7 +262,7 @@
     <link href="http://mapxlab.com/2016/05/2016-05-25-MapDroidWeekly-Issue-3/"/>
     <id>http://mapxlab.com/2016/05/2016-05-25-MapDroidWeekly-Issue-3/</id>
     <published>2016-05-25T14:27:28.000Z</published>
-    <updated>2017-08-21T08:00:02.000Z</updated>
+    <updated>2017-08-23T03:43:35.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Google-IO-2016"><a href="#Google-IO-2016" class="headerlink" title="Google IO 2016"></a><a href="https://events.google.com/io2016/" target="_blank" rel="external">Google IO 2016</a></h2><h3 id="Google-IO-2016-Keynote-盘点"><a href="#Google-IO-2016-Keynote-盘点" class="headerlink" title="Google IO 2016 Keynote 盘点"></a><a href="http://techcrunch.cn/2016/05/19/everything-you-need-to-know-from-the-2016-google-io-keynote/?ncid=rss" target="_blank" rel="external">Google IO 2016 Keynote 盘点</a></h3><h3 id="Google-I-O-2016到底讲了啥"><a href="#Google-I-O-2016到底讲了啥" class="headerlink" title="Google I/O 2016到底讲了啥"></a><a href="http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&amp;mid=2650661714&amp;idx=1&amp;sn=44da433abc7381d314c51983dc9992a6&amp;scene=1&amp;srcid=0519tJKM2moV9VBLArfHeYpW&amp;from=groupmessage&amp;isappinstalled=0#wechat_redirect" target="_blank" rel="external">Google I/O 2016到底讲了啥</a></h3><h3 id="Google-IO-视频汇总"><a href="#Google-IO-视频汇总" class="headerlink" title="Google IO 视频汇总"></a><a href="http://chinagdg.org/2016/05/google-io-2016-android/" target="_blank" rel="external">Google IO 视频汇总</a></h3><h2 id="工程实践"><a href="#工程实践" class="headerlink" title="工程实践"></a>工程实践</h2><h3 id="以我在阿里游戏的经验为例，谈如何边做业务边架构重构"><a href="#以我在阿里游戏的经验为例，谈如何边做业务边架构重构" class="headerlink" title="以我在阿里游戏的经验为例，谈如何边做业务边架构重构"></a><a href="http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;mid=2659597215&amp;idx=1&amp;sn=c74a82441c3e668284ab5d85a420c291&amp;scene=0#wechat_redirect" target="_blank" rel="external">以我在阿里游戏的经验为例，谈如何边做业务边架构重构</a></h3><h3 id="给飞驰的法拉利换引擎，续谈如何边做业务边重构架构"><a href="#给飞驰的法拉利换引擎，续谈如何边做业务边重构架构" class="headerlink" title="给飞驰的法拉利换引擎，续谈如何边做业务边重构架构"></a><a href="http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;mid=512113570&amp;idx=1&amp;sn=72c87deab1887e4c7c36b970681ee6ca#rd" target="_blank" rel="external">给飞驰的法拉利换引擎，续谈如何边做业务边重构架构</a></h3><p>正是我们目前面临的问题，边做业务边重构的经验之谈，服务端的重构经验，值得借鉴。</p>
 <h3 id="Android-和-Java-性能优化最佳实践"><a href="#Android-和-Java-性能优化最佳实践" class="headerlink" title="Android 和 Java 性能优化最佳实践"></a><a href="http://blog.csdn.net/oncealong/article/details/51501038" target="_blank" rel="external">Android 和 Java 性能优化最佳实践</a></h3><p>整理的性能优化文章，通用的优化原则</p>
@@ -229,7 +305,7 @@
     <link href="http://mapxlab.com/2016/05/2016-05-18-MapDroidWeekly-Issue-2/"/>
     <id>http://mapxlab.com/2016/05/2016-05-18-MapDroidWeekly-Issue-2/</id>
     <published>2016-05-18T02:08:08.000Z</published>
-    <updated>2017-08-21T08:00:02.000Z</updated>
+    <updated>2017-08-23T03:43:35.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h2><ul>
 <li><p><a href="http://blog.chengdazhi.com/index.php/157" target="_blank" rel="external">实战 Kotlin@Android</a></p>
@@ -324,7 +400,7 @@
     <link href="http://mapxlab.com/2016/05/2016-05-11-MapDroidWeekly-Issue-1/"/>
     <id>http://mapxlab.com/2016/05/2016-05-11-MapDroidWeekly-Issue-1/</id>
     <published>2016-05-11T02:00:00.000Z</published>
-    <updated>2017-08-21T08:09:54.000Z</updated>
+    <updated>2017-08-23T03:43:35.000Z</updated>
     
     <content type="html"><![CDATA[<pre><code>按： 精选一周内的技术干货文章，主题不限，涵盖编程语言、架构设计、开源项目、产品经验等。辅助我们的工程师扩展技术视野，提升工程化思维。每周一期，周三发布。
 </code></pre><h2 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h2><ul>

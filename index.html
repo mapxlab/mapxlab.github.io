@@ -277,6 +277,210 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://mapxlab.com/2017/08/2016-08-23-Android8-Oreo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="MapXLab">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MapXLab">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/08/2016-08-23-Android8-Oreo/" itemprop="url">Android 8.0 Oreo 新特性及 API 简介</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-23T11:00:00+08:00">
+                2017-08-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/08/2016-08-23-Android8-Oreo/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/08/2016-08-23-Android8-Oreo/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>经过4个DeveloperPreview 版本之后，google 在8月22日正式面向全球发布了Android 8.0 版本，取名『Oreo』。Android 8.0 为用户带来了诸如画中画 (Picture in picture)、自动填充 (Autofill)、免安装应用 (Instant Apps)、Google Play 保护机制 (Google Play Protect) 以及更快的启动时间等诸多新功能。到今年年底，国内一些硬件厂商都会计划新设备升级至Android8.0 Oreo。</p>
+</blockquote>
+<h2 id="Android-8-0-Oreo-的新特性"><a href="#Android-8-0-Oreo-的新特性" class="headerlink" title="Android 8.0 Oreo 的新特性"></a>Android 8.0 Oreo 的新特性</h2><h3 id="画中画-Picture-in-picture"><a href="#画中画-Picture-in-picture" class="headerlink" title="画中画 (Picture-in-picture)"></a>画中画 (Picture-in-picture)</h3><p>PIP 功能让用户能够以任意窗口大小同时进行两项任务的操作。该功能需要APP适配多窗口分屏模式（Multi-window）。<br><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/46128014.gif" alt=""></p>
+<h3 id="通知-Notification"><a href="#通知-Notification" class="headerlink" title="通知 Notification"></a>通知 Notification</h3><p><strong><a href="https://developer.android.com/guide/topics/ui/notifiers/notifications.html#ManageChannels" target="_blank" rel="external">通知channel</a></strong> ：Android 8.0 引入了通知渠道（Channel）的新特性，将应用通知分门别类管理，用户可以针对不同的通知消息单独设置通知优先级和提醒方式。</p>
+<p><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/69524188.jpg" width="400" algh=""></p>
+<blockquote>
+<p>Google 应用的通知设置</p>
+</blockquote>
+<p><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/83461351.jpg" width="400"></p>
+<blockquote>
+<p>Google 地图的通知设置</p>
+</blockquote>
+<p><strong>通知角标（Notification dot）</strong>：<br>之前的原生版本 Android 版本中，桌面启动器是不支持通知角标的（国内厂商有定制化支持），只能通过一些第三方桌面启动器（如Nova Launcher）实现。Android 8.0 开始，应用可以在启动器图标上显示通知圆点来提示用户，但这个圆点角标和 iOS 上那个有所不同——它仅提示用户该应用有通知，不会显示具体的通知数量。</p>
+<p><strong>延时通知</strong>：Android 8.0 引入了另一种通知处理操作——延时通知。当我们暂时不便处理某条应用通知时，只需要在该条通知上清扫，点击出现的时钟图标，即可让这条通知暂时从通知栏消失，在设定好的时间后再回来。</p>
+<p><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/23031752.jpg" width="400"><br><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/6200.jpg" width="400"></p>
+<blockquote>
+<p>延时通知</p>
+</blockquote>
+<h3 id="自动填充框架-Autofill-framework"><a href="#自动填充框架-Autofill-framework" class="headerlink" title="自动填充框架 (Autofill framework)"></a>自动填充框架 (Autofill framework)</h3><p>Android8.0 提供了系统几全局自动填写框架。简化了用户设置一台新设备以及同步密码的过程。需要用到表格数据的应用可为自动填充框架进行优化，密码管理应用通过新的 API 接口，能够让用户在自己最喜欢的应用中使用密码自动填充服务。</p>
+<p><img src="http://ov4i8xc7p.bkt.clouddn.com/17-8-23/71537178.jpg" width="400/"></p>
+<blockquote>
+<p>系统的自动填充设置</p>
+</blockquote>
+<h3 id="最大屏幕宽高比"><a href="#最大屏幕宽高比" class="headerlink" title="最大屏幕宽高比"></a>最大屏幕宽高比</h3><p>Android 8.0 引入了 <code>maxAspectRatio</code> 属性, 可以设置 App 级别的屏幕宽高比。</p>
+<h2 id="系统优化"><a href="#系统优化" class="headerlink" title="系统优化"></a>系统优化</h2><h3 id="新的-StrictMode-监控"><a href="#新的-StrictMode-监控" class="headerlink" title="新的 StrictMode 监控"></a>新的 StrictMode 监控</h3><p>Android 8.0 (API level 26) 增加了 3 个新的 StrictMode 检查类型:</p>
+<ul>
+<li>detectUnbufferedIo() 检查没有使用buffer读写数据</li>
+<li>detectContentUriWithoutPermission() 检查没有获取相关权限的情况下，调用app之外的Activity</li>
+<li>detectUntaggedSockets() 检查debug时没有使用 setThreadStatsTag(int) 标记网络请求流量</li>
+</ul>
+<h3 id="缓存数据"><a href="#缓存数据" class="headerlink" title="缓存数据"></a>缓存数据</h3><p>Android 8.0（API Level 26）引入了新的应用文件缓存方式。每个APP会分配一个磁盘空间配额（disk space quota）用于缓存，通过<code>getCacheQuotaBytes(UUID)</code>获取。</p>
+<p>如果系统需要释放磁盘空间，会从最接近分配配额的app开始删除缓存文件。如果app缓存的文件大小在配额之下，如果系统清理空间时，这些文件不会最先被删除。如果系统决定删除应用内缓存文件，会按照时间顺序，先删除最旧的缓存。</p>
+<p>系统提供了两个新的API，用于应用控制缓存行为：</p>
+<ul>
+<li>StorageManager.setCacheBehaviorAtomic()： 一个目录和它的内容作为一个原子单元被删除。</li>
+<li>setCacheBehaviorTombstone(File, boolean)：不会删除目录中的文件，但会把文件大小截断为0bytes，作为一个空文件。</li>
+</ul>
+<p>如果需要分配一个大文件缓存，推荐使用新的API <code>allocateBytes(FileDescriptor, long)</code>，可以在需要时，自动清理其他app的缓存，释放空间。</p>
+<h3 id="新增权限"><a href="#新增权限" class="headerlink" title="新增权限"></a>新增权限</h3><ul>
+<li>The ANSWER_PHONE_CALLS permission 使 app 可以编程应答电话。</li>
+<li>The READ_PHONE_NUMBERS permission 读取设备的电话号码。</li>
+</ul>
+<p>这些权限定义在PHONE权限组中，均被定义为危险权限。</p>
+<h3 id="系统优化-1"><a href="#系统优化-1" class="headerlink" title="系统优化"></a>系统优化</h3><p>为了提升系统的性能体验，Android 8.0引入了新的并发压缩垃圾回收机制，代码局部化优化（code locality）等优化手段，加速了启动时间。OS 和 APP 都能获得较好的性能体验。</p>
+<h3 id="Java-语音支持"><a href="#Java-语音支持" class="headerlink" title="Java 语音支持"></a>Java 语音支持</h3><ul>
+<li>java.time from OpenJDK 8.</li>
+<li>java.nio.file and java.lang.invoke from OpenJDK 7.</li>
+</ul>
+<h3 id="后台限制"><a href="#后台限制" class="headerlink" title="后台限制"></a>后台限制</h3><p>Android 8.0 对后台定位和扫描WiFi增加了限制，改变了应用在后台的运行模式。</p>
+<p>后台服务限制：处于空闲状态时，应用可以使用的后台服务存在限制。</p>
+<p>广播限制：除了有限的例外情况，应用无法为隐式广播注册接收器。</p>
+<hr>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://mapxlab.com/2017/08/2017-08-21-MapCPTechWeekly-Issue-2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1457,7 +1661,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1468,7 +1672,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -1479,7 +1683,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
