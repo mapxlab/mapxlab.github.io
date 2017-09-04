@@ -1,4 +1,4 @@
-title: MapCPTech Weekly ISSUE#3
+title: MapCPTech Weekly ISSUE#4
 date: 2017-09-05 10:00:00
 tags: [weekly]
 categories: weekly
