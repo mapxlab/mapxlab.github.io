@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mapxlab.com/"/>
-  <updated>2017-09-11T06:13:52.000Z</updated>
+  <updated>2017-09-18T12:55:54.000Z</updated>
   <id>http://mapxlab.com/</id>
   
   <author>
@@ -16,11 +16,51 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MapCPTech Weekly ISSUE#6</title>
+    <link href="http://mapxlab.com/2017/09/2017-09-18-MapCPTechWeekly-Issue-6/"/>
+    <id>http://mapxlab.com/2017/09/2017-09-18-MapCPTechWeekly-Issue-6/</id>
+    <published>2017-09-18T12:00:00.000Z</published>
+    <updated>2017-09-18T12:55:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/29268290" target="_blank" rel="external">[译] 如何基于TensorFlow使用LSTM和CNN实现时序分类任务</a></li>
+<li><a href="https://github.com/fendouai/Awesome-TensorFlow-Chinese" target="_blank" rel="external">TesorFlow 中文资源合集</a></li>
+<li><a href="http://wetest.qq.com/lab/view/333.html" target="_blank" rel="external">为测试赋能，腾讯WeTest探索手游AI自动化测试之路</a></li>
+<li><a href="https://juejin.im/entry/59bf55a86fb9a00a4f1b1ca4" target="_blank" rel="external">深度学习利器：TensorFlow在智能终端中的应用</a></li>
+</ul>
+<h2 id="Mobile"><a href="#Mobile" class="headerlink" title="Mobile"></a>Mobile</h2><ul>
+<li><a href="https://mp.weixin.qq.com/s/7kM8Qiha7np6_QWfduxD-A" target="_blank" rel="external">[译] iPhone X 设计适配指南 &amp; iOS 11 新特性</a></li>
+<li><a href="https://mp.weixin.qq.com/s/BwjyJwUJKZSSaaKbzRiT8Q" target="_blank" rel="external">Android Google ARCore尝鲜记录</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/29216091" target="_blank" rel="external">图解 TCMalloc, Google 的高性能内存分配器</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/29136209" target="_blank" rel="external">一个好的 README 的些许建议</a></li>
+<li><a href="http://www.jianshu.com/p/c3b41c3f6692" target="_blank" rel="external">移动应用安全iOS方向</a></li>
+<li><a href="https://juejin.im/post/59bdd2105188252c237f751c" target="_blank" rel="external">插件化踩坑之路——Small和Atlas方案对比</a></li>
+<li><a href="https://juejin.im/entry/59bf61435188257e70532456" target="_blank" rel="external">轻量级高性能Hybrid框架VasSonic秒开实现解析</a></li>
+<li><a href="https://juejin.im/post/59ba146c6fb9a00a4636d8b6" target="_blank" rel="external">深入理解Http请求、DNS劫持与解析</a></li>
+<li><a href="https://juejin.im/post/59b7a3ad6fb9a00a59593717" target="_blank" rel="external">这可能是最好的性能优化教程</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;AI&quot;&gt;&lt;a href=&quot;#AI&quot; class=&quot;headerlink&quot; title=&quot;AI&quot;&gt;&lt;/a&gt;AI&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/29268290&quot; target=&quot;_blank&quot; 
+    
+    </summary>
+    
+      <category term="weekly" scheme="http://mapxlab.com/categories/weekly/"/>
+    
+    
+      <category term="weekly" scheme="http://mapxlab.com/tags/weekly/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MapCPTech Weekly ISSUE#5</title>
     <link href="http://mapxlab.com/2017/09/2017-09-11-MapCPTechWeekly-Issue-5/"/>
     <id>http://mapxlab.com/2017/09/2017-09-11-MapCPTechWeekly-Issue-5/</id>
     <published>2017-09-11T02:00:00.000Z</published>
-    <updated>2017-09-11T06:13:52.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
 <li><a href="https://mp.weixin.qq.com/s?__biz=MzU2NDA2NTgyNQ%3D%3D&amp;mid=2247484068&amp;idx=1&amp;sn=1e0e9ca1d49584c33278ff092a2d5813" target="_blank" rel="external">计算机视觉的经典课题：深度学习时代的目标检测算法</a></li>
@@ -62,7 +102,7 @@
     <link href="http://mapxlab.com/2017/09/2017-09-05-MapCPTechWeekly-Issue-4/"/>
     <id>http://mapxlab.com/2017/09/2017-09-05-MapCPTechWeekly-Issue-4/</id>
     <published>2017-09-05T02:00:00.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
 <li><a href="https://mp.weixin.qq.com/s/sqwxahUYcWa7fgbKTsz25A" target="_blank" rel="external">国务院下发《新一代人工智能发展规划》，举全国之力发展AI</a></li>
@@ -105,7 +145,7 @@
     <link href="http://mapxlab.com/2017/08/2017-08-28-MapCPTechWeekly-Issue-3/"/>
     <id>http://mapxlab.com/2017/08/2017-08-28-MapCPTechWeekly-Issue-3/</id>
     <published>2017-08-28T02:00:00.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
 <li><p><a href="http://mp.weixin.qq.com/s/kOCftzSbHe2mvDmlRp-ihA" target="_blank" rel="external">Jeff Dean「Hot Chips 2017」演讲：AI对计算机系统设计的影响</a></p>
@@ -174,7 +214,7 @@
     <link href="http://mapxlab.com/2017/08/2016-08-23-Android8-Oreo/"/>
     <id>http://mapxlab.com/2017/08/2016-08-23-Android8-Oreo/</id>
     <published>2017-08-23T03:00:00.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>经过4个DeveloperPreview 版本之后，google 在8月22日正式面向全球发布了Android 8.0 版本，取名『Oreo』。Android 8.0 为用户带来了诸如画中画 (Picture in picture)、自动填充 (Autofill)、免安装应用 (Instant Apps)、Google Play 保护机制 (Google Play Protect) 以及更快的启动时间等诸多新功能。到今年年底，国内一些硬件厂商都会计划新设备升级至Android8.0 Oreo。</p>
@@ -250,7 +290,7 @@
     <link href="http://mapxlab.com/2017/08/2017-08-21-MapCPTechWeekly-Issue-2/"/>
     <id>http://mapxlab.com/2017/08/2017-08-21-MapCPTechWeekly-Issue-2/</id>
     <published>2017-08-21T02:00:00.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
 <li><a href="https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&amp;mid=2650408397&amp;idx=1&amp;sn=e4e78b2ed73a9c179a5dbc7c5adb6058" target="_blank" rel="external">Andrew Ng 深度学习课程小记</a><blockquote>
@@ -306,7 +346,7 @@
     <link href="http://mapxlab.com/2017/08/2017-08-13-MapCPTechWeekly-Issue-1/"/>
     <id>http://mapxlab.com/2017/08/2017-08-13-MapCPTechWeekly-Issue-1/</id>
     <published>2017-08-13T02:00:00.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
 <li><p><a href="https://github.com/Tencent/ncnn" target="_blank" rel="external">ncnn：腾讯开源的为手机端优化的高性能神经网络前向计算框架</a></p>
@@ -394,7 +434,7 @@
     <link href="http://mapxlab.com/2016/06/2016-06-02-MapDroidWeekly-Issue-4/"/>
     <id>http://mapxlab.com/2016/06/2016-06-02-MapDroidWeekly-Issue-4/</id>
     <published>2016-06-02T07:46:52.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x00-编程语言"><a href="#0x00-编程语言" class="headerlink" title="0x00 编程语言"></a>0x00 编程语言</h2><h3 id="Java-类加载机制解析"><a href="#Java-类加载机制解析" class="headerlink" title="Java 类加载机制解析"></a><a href="https://segmentfault.com/a/1190000005608960" target="_blank" rel="external">Java 类加载机制解析</a></h3><h3 id="Android-JNI原理分析"><a href="#Android-JNI原理分析" class="headerlink" title="Android JNI原理分析"></a><a href="http://gityuan.com/2016/05/28/android-jni/" target="_blank" rel="external">Android JNI原理分析</a></h3><h2 id="0x01-应用架构"><a href="#0x01-应用架构" class="headerlink" title="0x01 应用架构"></a>0x01 应用架构</h2><h3 id="从Dagger2基础到Google官方架构MVP-Dagger2架构详解"><a href="#从Dagger2基础到Google官方架构MVP-Dagger2架构详解" class="headerlink" title="从Dagger2基础到Google官方架构MVP+Dagger2架构详解"></a><a href="http://blog.csdn.net/megatronkings/article/details/51534250" target="_blank" rel="external">从Dagger2基础到Google官方架构MVP+Dagger2架构详解</a></h3><h3 id="iOS组件化实践方案－LDBusMediator炼就"><a href="#iOS组件化实践方案－LDBusMediator炼就" class="headerlink" title="iOS组件化实践方案－LDBusMediator炼就"></a><a href="http://www.jianshu.com/p/196f66d31543" target="_blank" rel="external">iOS组件化实践方案－LDBusMediator炼就</a></h3><h3 id="使用-FLOWCONTROLLERS-改进IOS应用架构"><a href="#使用-FLOWCONTROLLERS-改进IOS应用架构" class="headerlink" title="使用 FLOWCONTROLLERS 改进IOS应用架构"></a><a href="https://blog.maxleap.cn/archives/879" target="_blank" rel="external">使用 FLOWCONTROLLERS 改进IOS应用架构</a></h3><h2 id="0x02-工程实践"><a href="#0x02-工程实践" class="headerlink" title="0x02 工程实践"></a>0x02 工程实践</h2><h3 id="Android-在线换肤方案总结分享"><a href="#Android-在线换肤方案总结分享" class="headerlink" title="Android 在线换肤方案总结分享"></a><a href="http://imesong.com/2016/04/05/Android-%E5%9C%A8%E7%BA%BF%E6%8D%A2%E8%82%A4%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93%E5%88%86%E4%BA%AB" target="_blank" rel="external">Android 在线换肤方案总结分享</a></h3><h3 id="Android中插件开发篇之—-应用换肤原理解析"><a href="#Android中插件开发篇之—-应用换肤原理解析" class="headerlink" title="Android中插件开发篇之—-应用换肤原理解析"></a><a href="http://blog.csdn.net/jiangwei0910410003/article/details/47679843" target="_blank" rel="external">Android中插件开发篇之—-应用换肤原理解析</a></h3><h3 id="蘑菇街App-Chromium网络栈实践"><a href="#蘑菇街App-Chromium网络栈实践" class="headerlink" title="蘑菇街App Chromium网络栈实践"></a><a href="https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112324&amp;idx=1&amp;sn=34b15399d6519340f66410445f033e85" target="_blank" rel="external">蘑菇街App Chromium网络栈实践</a></h3><h2 id="0x03-React-Native"><a href="#0x03-React-Native" class="headerlink" title="0x03 React Native"></a>0x03 React Native</h2><h3 id="React-Native系列Android——Javascript文件加载过程分析"><a href="#React-Native系列Android——Javascript文件加载过程分析" class="headerlink" title="React-Native系列Android——Javascript文件加载过程分析"></a><a href="http://blog.csdn.net/megatronkings/article/details/51534250" target="_blank" rel="external">React-Native系列Android——Javascript文件加载过程分析</a></h3><h3 id="React-Native之底层源码分析篇"><a href="#React-Native之底层源码分析篇" class="headerlink" title="React Native之底层源码分析篇"></a><a href="http://blog.csdn.net/u014486880/article/details/51535391#rd" target="_blank" rel="external">React Native之底层源码分析篇</a></h3><h2 id="0x04-工具"><a href="#0x04-工具" class="headerlink" title="0x04 工具"></a>0x04 工具</h2><h3 id="学会编写Android-Studio插件-别停留在用的程度了"><a href="#学会编写Android-Studio插件-别停留在用的程度了" class="headerlink" title="学会编写Android Studio插件 别停留在用的程度了"></a><a href="http://blog.csdn.net/lmj623565791/article/details/51548272#rd" target="_blank" rel="external">学会编写Android Studio插件 别停留在用的程度了</a></h3><h3 id="深入浅出Android打包"><a href="#深入浅出Android打包" class="headerlink" title="深入浅出Android打包"></a><a href="http://geek.csdn.net/news/detail/76488#rd?sukey=3903d1d3b699c20848ef1785bc038226c33b454e40df770585099bc86451f090e726501798b166a42e7f2fa32783787c" target="_blank" rel="external">深入浅出Android打包</a></h3><h3 id="微信测试工程师手把手教你做弱网络模拟测试"><a href="#微信测试工程师手把手教你做弱网络模拟测试" class="headerlink" title="微信测试工程师手把手教你做弱网络模拟测试"></a><a href="http://mp.weixin.qq.com/s?__biz=MzAxMzYyNDkyNA==&amp;mid=2651332070&amp;idx=1&amp;sn=2fae22d0089b0af8ace73280f05492b1&amp;scene=1&amp;srcid=0530uZEAvbQFuj1HUrTYUtVd#wechat_redirect" target="_blank" rel="external">微信测试工程师手把手教你做弱网络模拟测试</a></h3><h3 id="“HTTPS”安全在哪里？"><a href="#“HTTPS”安全在哪里？" class="headerlink" title="“HTTPS”安全在哪里？"></a><a href="https://segmentfault.com/a/1190000005597589" target="_blank" rel="external">“HTTPS”安全在哪里？</a></h3>]]></content>
     
@@ -416,7 +456,7 @@
     <link href="http://mapxlab.com/2016/05/2016-05-25-MapDroidWeekly-Issue-3/"/>
     <id>http://mapxlab.com/2016/05/2016-05-25-MapDroidWeekly-Issue-3/</id>
     <published>2016-05-25T14:27:28.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Google-IO-2016"><a href="#Google-IO-2016" class="headerlink" title="Google IO 2016"></a><a href="https://events.google.com/io2016/" target="_blank" rel="external">Google IO 2016</a></h2><h3 id="Google-IO-2016-Keynote-盘点"><a href="#Google-IO-2016-Keynote-盘点" class="headerlink" title="Google IO 2016 Keynote 盘点"></a><a href="http://techcrunch.cn/2016/05/19/everything-you-need-to-know-from-the-2016-google-io-keynote/?ncid=rss" target="_blank" rel="external">Google IO 2016 Keynote 盘点</a></h3><h3 id="Google-I-O-2016到底讲了啥"><a href="#Google-I-O-2016到底讲了啥" class="headerlink" title="Google I/O 2016到底讲了啥"></a><a href="http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&amp;mid=2650661714&amp;idx=1&amp;sn=44da433abc7381d314c51983dc9992a6&amp;scene=1&amp;srcid=0519tJKM2moV9VBLArfHeYpW&amp;from=groupmessage&amp;isappinstalled=0#wechat_redirect" target="_blank" rel="external">Google I/O 2016到底讲了啥</a></h3><h3 id="Google-IO-视频汇总"><a href="#Google-IO-视频汇总" class="headerlink" title="Google IO 视频汇总"></a><a href="http://chinagdg.org/2016/05/google-io-2016-android/" target="_blank" rel="external">Google IO 视频汇总</a></h3><h2 id="工程实践"><a href="#工程实践" class="headerlink" title="工程实践"></a>工程实践</h2><h3 id="以我在阿里游戏的经验为例，谈如何边做业务边架构重构"><a href="#以我在阿里游戏的经验为例，谈如何边做业务边架构重构" class="headerlink" title="以我在阿里游戏的经验为例，谈如何边做业务边架构重构"></a><a href="http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;mid=2659597215&amp;idx=1&amp;sn=c74a82441c3e668284ab5d85a420c291&amp;scene=0#wechat_redirect" target="_blank" rel="external">以我在阿里游戏的经验为例，谈如何边做业务边架构重构</a></h3><h3 id="给飞驰的法拉利换引擎，续谈如何边做业务边重构架构"><a href="#给飞驰的法拉利换引擎，续谈如何边做业务边重构架构" class="headerlink" title="给飞驰的法拉利换引擎，续谈如何边做业务边重构架构"></a><a href="http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;mid=512113570&amp;idx=1&amp;sn=72c87deab1887e4c7c36b970681ee6ca#rd" target="_blank" rel="external">给飞驰的法拉利换引擎，续谈如何边做业务边重构架构</a></h3><p>正是我们目前面临的问题，边做业务边重构的经验之谈，服务端的重构经验，值得借鉴。</p>
 <h3 id="Android-和-Java-性能优化最佳实践"><a href="#Android-和-Java-性能优化最佳实践" class="headerlink" title="Android 和 Java 性能优化最佳实践"></a><a href="http://blog.csdn.net/oncealong/article/details/51501038" target="_blank" rel="external">Android 和 Java 性能优化最佳实践</a></h3><p>整理的性能优化文章，通用的优化原则</p>
@@ -459,7 +499,7 @@
     <link href="http://mapxlab.com/2016/05/2016-05-18-MapDroidWeekly-Issue-2/"/>
     <id>http://mapxlab.com/2016/05/2016-05-18-MapDroidWeekly-Issue-2/</id>
     <published>2016-05-18T02:08:08.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h2><ul>
 <li><p><a href="http://blog.chengdazhi.com/index.php/157" target="_blank" rel="external">实战 Kotlin@Android</a></p>
@@ -554,7 +594,7 @@
     <link href="http://mapxlab.com/2016/05/2016-05-11-MapDroidWeekly-Issue-1/"/>
     <id>http://mapxlab.com/2016/05/2016-05-11-MapDroidWeekly-Issue-1/</id>
     <published>2016-05-11T02:00:00.000Z</published>
-    <updated>2017-09-09T09:20:19.000Z</updated>
+    <updated>2017-09-18T12:54:55.000Z</updated>
     
     <content type="html"><![CDATA[<pre><code>按： 精选一周内的技术干货文章，主题不限，涵盖编程语言、架构设计、开源项目、产品经验等。辅助我们的工程师扩展技术视野，提升工程化思维。每周一期，周三发布。
 </code></pre><h2 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h2><ul>
